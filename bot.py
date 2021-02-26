@@ -76,7 +76,7 @@ async def handle_photo_for_prediction(message):
         # Detector predictions
         num_cars, little_car = car_inspector(photo_name, detection_photo_name, cropped_photo_name)
 
-        # Find proper car bounding box for futher manipulations
+        # Find proper car bounding box for further manipulations
         if num_cars == 0:
             # It means - no proper car on the photos
             # Error message for notcar input photo
