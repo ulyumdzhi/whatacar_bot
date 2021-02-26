@@ -1,5 +1,5 @@
-import pandas as pd
 import os
+import pandas as pd
 
 path = 'cars_info.xlsx'
 table = pd.read_excel(path).drop(columns=['Unnamed: 0'])
